@@ -1,0 +1,633 @@
+/*home.html
+    Styling
+*/
+
+/*Standard to make the webpage appear atomatically*/
+body{
+    background-color: #0b0c10;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-0%);
+}
+@media(min-width:480px) {
+    .mobile {
+       display: none;
+    }
+  }
+body a:link{
+    color: #d2eef3;
+}
+body a:visited{
+    color:#e4202e;
+}
+/* Navigation Bar Styling with Animations*/
+.navigationBar{
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    width: 100%;
+    height: 10vh;
+    position: sticky;
+    top: 0;
+}
+.navigationBar a:visited{
+    color: #c5c6c7;
+}
+.navigationBar a:active{
+    background-color: #66fcf1;
+    color: #0b0c10;
+}
+.navigationBar a:link{
+    color: #c5c6c7;
+}
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0b0c10;
+    position: sticky;
+    top: 0;
+    color: #c5c5c5;
+}
+li {
+    float: left;
+    border-right: 1px solid #66fcf1;
+    border-top:  1px solid #66fcf1;
+    border-bottom:1px solid #66fcf1;
+    border-left:1px solid #66fcf1;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+li a:hover{
+    background-color: #152238;
+}
+
+
+/* topContainer <div> styling */ 
+.topContainer-image{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(./images/atarisym.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    justify-content: center;
+}
+
+.topContainer{
+    align-items: center;
+    justify-content: center;
+
+}
+.topContainer a{
+    -webkit-text-stroke: 0.2px black;
+    -webkit-text-fill-color: red;
+}
+.topContainer h1{
+    -webkit-text-stroke: 1.5px black;
+    -webkit-text-fill-color:#66fcf1;
+    font-family:  Arial, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 60PX;
+}
+.topContainer h2{
+    -webkit-text-stroke: 1.2px black;
+    -webkit-text-fill-color: white;
+    font-size:25px;
+    font-family:  Arial, Tahoma, sans-serif;
+    text-align: center;
+}
+.topContainer h3{
+    -webkit-text-stroke: 1.5px black;
+    -webkit-text-fill-color: #66fcf1;
+    font-size: 30px;
+    font-family: Arial, Tahoma, sans-serif;
+    text-align: center;
+}
+.topContainer p{
+    -webkit-text-stroke: 1.2px black;
+    -webkit-text-fill-color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Tahoma, sans-serif;
+    text-decoration: STRONG;
+}
+/* customer feedback <div> */
+.customerFeedback{
+    background-color: #0b0c10;
+    box-sizing: border-box;
+    font-family: Arial, Tahoma, sans-serif;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+.customerFeedback h1{
+    color: #66fcf1;
+    font-size: 40px;
+    text-align: center;
+}
+.customerFeedback p{
+    color: #c5c6c7;
+    font-size: 97%;
+}
+.customerFeedback h3{
+    color: #66fcf1;
+    font-size:105%;
+}
+.customerFeedback button{
+    width: 125px;
+    height: 25px;
+    background-color: #152238;
+    color: #c5c6c7;
+}
+.columnb{
+    text-align: center;
+    align-items: center;
+    width: 32.68%;
+    padding: 0 0.65%;
+}
+.rowb {
+    margin: 0 -0.33%;
+    justify-content: center;
+    display: flex;
+}
+.rowb:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.cardb{   
+    height: 100%;
+    width: 90%;
+    padding: 5%;
+    text-align: center;
+    background-color: #1f2833;
+}
+/* why us <div> */
+.whyUs{
+    background-color: #0b0c10;
+    text-align: center;
+    box-sizing: border-box;
+    font-family:Arial, Tahoma, sans-serif ;
+    height: 100%;
+}
+.whyUs h1{
+    color: #66fcf1;
+    font-size: 45px;
+    font-family:  Arial, Tahoma, sans-serif;
+    text-align: center;
+}
+.whyUs h2{ 
+    font-size: 35px;
+    color: #66fcf1;
+    font-family:  Arial, Tahoma, sans-serif;
+    text-align: center;
+}
+.whyUs h3{
+    font: size 20px;
+    color: #45a29e;
+    font-family:  Arial, Tahoma, sans-serif;
+    text-align: center;
+}
+.whyUs h4{
+    font: size 20px;
+    color: #c5c6c7;
+    font-family:  Arial, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.whyUs p{
+    font-size:  20px;
+    color: #c5c6c7;
+    font-family:  Arial, Tahoma, sans-serif;
+    text-align: center;
+}
+.whyUs img{
+    padding: 5px;
+    width: 150px;
+}
+.whyUs button{
+    background-color:#1f2833;
+    color: #c5c6c7; 
+    font-size: 20px;
+    width: 190px;
+    height: 45px;
+}
+/*over priced ebay*/
+.comparisonList{
+    align-content: center;
+    align-items: center;
+}
+.column {
+    align-items: center;
+    float: left;
+    width: 32.68%;
+    padding: 1.2% 0.56%;
+}
+.row {
+    margin: 0 -0.33%;
+    display: flex;
+    justify-content: center;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.card{
+    align-items: center;
+    height: 100%;
+    width: 90%;
+    padding: 5%;
+    text-align: center;
+    background-color: #1f2833;
+    border: black;
+}
+/*contact us styling*/
+.contactUs{
+    background-color: #1f2833;
+    text-align:left;
+    font-size: 18px;
+    color: #c5c6c7;
+    font-family: Arial, Tahoma, sans-serif;
+}
+.contactUs h4{
+
+    top:-50%;
+    text-align: left;
+    color: #66fcf1;
+    font-size: 30px;
+    transform: translateY(75%);
+}
+.accordion {
+	background-color: #1f2833;
+	color: #c5c6c7;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+	transition: 0.4s;
+}
+.accordion:hover {
+    background-color:#0b0c10;
+}
+.activeb{
+	background-color: #0b0c10; 
+    color: #66fcf1;
+}
+.panel {
+	padding: 0 18px;
+	display: none;
+	background-color:#1f2833 ;
+	overflow: hidden;
+}
+/*about.html
+    Styling
+*/
+/*our history styling*/
+.ourHistory{
+    background-color: #0b0c10;
+    font-size: 20px;
+    color: #c5c6c7;
+    font-family: Arial, Tahoma, sans-serif;
+    text-align: center;
+}
+.ourHistory h3{
+    color: #66fcf1;
+    font-size: 45px;
+    text-align: center;
+}
+/*achivements styling*/
+.achivementsContainer{
+    background-color: black;
+    font-size: 20px;
+    font-family: Arial, Tahoma, sans-serif;
+    text-align: center;
+}
+.achivementsContainer h3{
+    font-size: 45px;
+    color: #66fcf1;
+    font-family: Arial, Tahoma, sans-serif;
+    text-align: center;
+}
+.achivementsContainer p{
+    text-align: center;
+    font-size: 95%;
+    color: #c5c6c7;
+}
+.achivementsContainer button{
+    background-color: #1f2833;
+    color: #66fcf1;
+    font-size: 20px;
+    font-style: bold;
+    height:30px ;
+    width: 120px ;
+    align-self: center;
+}
+.columnc{
+    text-align: center;
+    align-items: center;
+    width: 32.68%;
+    padding: 0 0.65%;
+}
+.rowc {
+    margin: 0 -0.33%;
+    justify-content: center;
+    display: flex;
+}
+.rowc:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.cardc{
+    height: 100%;
+    width: 90%;
+    padding: 5%;
+    text-align: center;
+    background-color:#1f2833;
+}
+.recycleAndEcoEffort{
+    background-color: #1f2833;
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Tahoma, sans-serif;
+}
+.recycleAndEcoEffort h3{
+    text-align: center;
+}
+/* news.html
+    Styling
+*/
+.notifications{
+    background: #0b0c10;
+    height:100vh ;
+    width:100% ;
+    position: relative;
+    justify-content: center;
+  }
+.notifications h1{
+    text-align: center;
+    padding: top 40px; 
+    font-size: 40px;
+    color: #66fcf1;
+  }
+.slideRow{
+    display: flex;
+    width: 4480px;
+    transition: 0.5s;
+  }
+.slideCol{
+    width: 320px;
+    height: 400px;
+    position: relative;
+  }
+.userText{
+    background: #1f2833;
+    width: 320px;
+    height: 100%;
+    position: absolute;
+    top: 25%;
+    transform: translateY(-25%);
+    border-radius: 10px;
+    color: #c5c6c7;
+    box-sizing: border-box;
+    text-align: center;
+  }
+.container{
+    width: 320px;
+    height: 400px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-25%);
+    justify-content: center;
+  }
+.indicator{
+    position: absolute;
+    width: 320px;
+   justify-self: center;
+    bottom: -25px;
+  }
+.btn{
+    display: inline-block;
+    height: 14.5px;
+    width: 8px;
+    margin: 4px;
+    border-radius: 15px;
+    background:#66fcf1;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+.active{
+    width: 45px;
+}
+.messeges {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.newsPage{
+    background-color: #0b0c10;
+    text-align: center;
+}
+.newsPage h1{
+    font-size: 60px;
+    color:#66fcf1;
+    text-align: center;
+}
+
+.newsPage h3{
+    font-size: 40px;
+    color:#45a29e;
+    text-align: center;
+}
+
+.newsPage h4{
+    font-size: 30px;
+    color:#c5c6c7;
+    text-align: center;
+}
+
+.newsPage p{
+    font-size: 25px;
+    color: #c5c6c7;
+    text-align: center;
+}
+.atariCollectors{
+    background-color:#0b0c10;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+.atariCollectors h3{
+    font-size: 35px;
+    color:#45a29e;
+}
+.atariCollectors h4{
+    font-size: 30px;
+    color:#c5c6c7;;
+}
+.atariCollectors p{
+    font-size: 25px;
+    color:#c5c6c7;
+}
+.updatedinfo{
+    background-color:#0b0c10;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.updatedinfo h3{
+    font-size: 35px;
+    color:#45a29e;
+}
+
+.oemInformation{
+    background-color:#0b0c10;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color:#c5c6c7;
+}
+.lineOrder{
+    background-color:#0b0c10;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color:#c5c6c7;
+}
+.lineOrder button{
+    background-color:#1f2833;
+    color: #c5c6c7; 
+    font-size: 20px;
+    width: 190px;
+    height: 45px;
+}
+.atariCommunitySupport{
+    background-color:#0b0c10;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color:#c5c6c7;
+}
+/* products*/
+.productsCatalogue h1{
+    text-align: center;
+    font-size: 60px;
+    color: #66fcf1;
+    background-color: #0b0c10;
+}
+.atariAccessoriesBox{
+    text-align: center;
+    color: #c5c6c7;
+}
+.atariAccessoriesBox h2{
+    text-align: center;
+    color: #45a29e;
+    font-size: 35px;
+}
+.atariAccessoriesBox button{
+    background-color:#1f2833;
+    color:#c5c6c7;
+    width: 125px;
+    height: 30px;
+    font-size: 20px;
+}
+.atari5200Box {
+    background-color: #0b0c10;
+    font-size: 20px;
+    color:#c5c6c7;
+    font-family: Arial, Tahoma, sans-serif;
+    text-align: center;
+    align-content: center;
+}
+.atari5200Box h2{
+    text-align: center;
+    color: #45a29e;
+    font-size: 35px;
+} 
+.descriptionTxt button{
+    background-color:#1f2833;
+    color: #c5c6c7;
+
+}
+.descriptionTxt{
+    background-color: #0b0c10;
+    font-size: 20px;
+    color:#c5c6c7;
+    font-family: Arial, Tahoma, sans-serif;
+    text-align: center;
+    align-content: center;
+}
+.atariDustCover{
+    background-color: #0b0c10;
+    font-size: 25px;
+    color:#c5c6c7;
+    font-family: Arial, Tahoma, sans-serif;
+    text-align: center;
+    align-content: center;
+}
+.atariDustCover h2{
+    text-align: center;
+    color: #45a29e;
+    font-size: 35px;    
+}
+.atariUpgrades{
+    background-color: #0b0c10;
+    font-size: 25px;
+    color:#c5c6c7;
+    font-family: Arial, Tahoma, sans-serif;
+    text-align: center;
+    align-content: center;
+}
+.atariUpgrades h3{
+    font-size: 45px;
+    color: #45a29e;
+}
+/*imgages*/
+.images{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+.threepics {
+    display: flex;
+}
+.imagesb{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;  
+}
+.imagesc{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px; 
+}
+.imagesd{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    border-radius: 4px;
+    padding: 5px;
+    top: 50%;
+    transform: translateY(15%); 
+}
