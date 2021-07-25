@@ -12,7 +12,7 @@ For this coursework, our team chose the website of [**Best Electronics**](https:
 Team Members:
 - Aryan Bardhan
 - [Chandrashekhar R](@cr2007)
-- Nemr Aslam
-- [Noureldine Adib](https://github.com/X688506)
+- [Nemr Aslam](@Nimmbo02)
+- [Noureldine Adib](@X688506)
 - Rohan Samuel
 
