@@ -11,8 +11,8 @@ For this coursework, our team chose the website of [**Best Electronics**](https:
 
 Team Members:
 - Aryan Bardhan
-- [Chandrashekhar R](@cr2007)
-- [Nemr Aslam](@Nimmbo02)
-- [Noureldine Adib](@X688506)
+- [Chandrashekhar R](https://github.com/cr2007)
+- [Nemr Aslam](https://github.com/Nimmbo02)
+- [Noureldine Adib](https://github.com/X688506)
 - Rohan Samuel
 
