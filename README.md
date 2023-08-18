@@ -1,6 +1,6 @@
 # F27WD CW1
 ## Course: Web Design and Databases ([F27WD](https://www.hw.ac.uk/documents/pams/202021/F27WD_202021.pdf))
-## [Best Electronics](http://best-electronics-ca.com/) - Website Redesgn
+## [Best Electronics](http://best-electronics-ca.com/) - Website Redesign
 ### Coursework 1 - Redesigning a Website
 Original Website: [Best Electronics - Atari](http://best-electronics-ca.com/)
 
